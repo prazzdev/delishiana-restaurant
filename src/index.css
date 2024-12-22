@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Hello-Graduation-Sans-Serif";
-  src: url("assets/fonts/Hello-Graduation-Sans-Serif.ttf");
+  src: url("/assets/fonts/Hello-Graduation-Sans-Serif.ttf");
 }
 @font-face {
   font-family: "Trap-Bold";
-  src: url("assets/fonts/Trap-Bold.otf");
+  src: url("/assets/fonts/Trap-Bold.otf");
 }
 
 :root {
