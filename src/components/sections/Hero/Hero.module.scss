@@ -1,0 +1,142 @@
+.hero {
+  background-color: #fce501;
+  min-width: 100%;
+  min-height: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 5rem;
+  padding-top: 10rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  @media (min-width: 768px) {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.maskGradient {
+  mask-image: radial-gradient(1200px circle at top, white, transparent);
+
+  @media (max-width: 768px) {
+    mask-image: radial-gradient(800px circle at top, white, transparent);
+  }
+}
+
+.hero > .firstHeading {
+  font-family: "Hello-Graduation-Sans-Serif";
+  position: relative;
+  z-index: 2;
+  min-height: fit-content;
+  max-height: fit-content;
+  min-width: 450px;
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ff64be;
+  color: #eee;
+  padding: 0.3rem;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  @media (min-width: 768px) {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.secondHeadingWrapper {
+  z-index: 9;
+  position: relative;
+}
+
+.secondHeadingWrapper > .secondHeading {
+  min-height: fit-content;
+  max-height: fit-content;
+  min-width: 1300px;
+  max-width: 1300px;
+  font-family: "Trap-Bold";
+  font-size: 6.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 6.5rem;
+}
+
+.secondHeadingWrapper > h5 {
+  position: absolute;
+  font-size: 0.8rem;
+  min-width: 95px;
+  max-width: 95px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.secondHeadingWrapper > .firstFloat {
+  top: 7%;
+  right: 28.4%;
+  background-color: #ff64be;
+  color: #ddd;
+  font-weight: 500;
+}
+
+.secondHeadingWrapper > .secondFloat {
+  top: 43%;
+  left: 42%;
+  background-color: #05bebf;
+  color: #000;
+  font-weight: 500;
+}
+
+.secondHeadingWrapper > .thirdFloat {
+  bottom: 15%;
+  right: 40.8%;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+.secondHeadingWrapper > img {
+  position: absolute;
+  z-index: -1;
+}
+
+.secondHeadingWrapper > .firstFloatImage {
+  top: -9rem;
+  left: 2rem;
+  transform: rotate(-10deg);
+  width: 200px;
+  height: 200px;
+}
+
+.secondHeadingWrapper > .secondFloatImage {
+  bottom: -13rem;
+  right: -6rem;
+  width: 380px;
+  height: 380px;
+  transform: rotate(-4deg);
+}
+
+.hero > .bookTableBtn {
+  background-color: white;
+  min-width: 340px;
+  padding: 0.6rem 0 0.4rem;
+  font-family: "Hello-Graduation-Sans-Serif";
+  font-size: 1.8rem;
+  font-weight: 500;
+  z-index: 9;
+  border: 2px solid #000;
+  box-shadow: 6px 6px 0px #000;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 0 #000;
+  }
+}
