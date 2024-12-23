@@ -7,6 +7,10 @@
   src: url("/assets/fonts/Hello-Graduation-Sans-Serif.ttf");
 }
 @font-face {
+  font-family: "Trap-Regular";
+  src: url("/assets/fonts/Trap-Regular.otf");
+}
+@font-face {
   font-family: "Trap-Bold";
   src: url("/assets/fonts/Trap-Bold.otf");
 }
