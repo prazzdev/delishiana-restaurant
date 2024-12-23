@@ -1,4 +1,3 @@
-import { Image } from "lucide-react";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {

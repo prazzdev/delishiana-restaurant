@@ -16,298 +16,298 @@
   @media (min-width: 768px) {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
   }
-}
 
-.maskGradient {
-  mask-image: radial-gradient(1200px circle at top, white, transparent);
+  .maskGradient {
+    mask-image: radial-gradient(1200px circle at top, white, transparent);
 
-  @media (max-width: 768px) {
-    mask-image: radial-gradient(800px circle at top, white, transparent);
+    @media (max-width: 768px) {
+      mask-image: radial-gradient(800px circle at top, white, transparent);
+    }
   }
-}
 
-.hero > .firstHeading {
-  font-family: "Hello-Graduation-Sans-Serif";
-  position: relative;
-  z-index: 2;
-  min-height: fit-content;
-  max-height: fit-content;
-  min-width: 450px;
-  font-size: 2.1rem;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
-  background-color: #ff64be;
-  color: #eee;
-  padding: 0.3rem;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  .firstHeading {
+    font-family: "Hello-Graduation-Sans-Serif";
+    position: relative;
+    z-index: 2;
+    min-height: fit-content;
+    max-height: fit-content;
+    min-width: 450px;
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #ff64be;
+    color: #eee;
+    padding: 0.3rem;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
-  @media (min-width: 768px) {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    @media (min-width: 768px) {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
   }
-}
 
-.secondHeadingWrapper {
-  z-index: 9;
-  position: relative;
-}
+  .secondHeadingWrapper {
+    z-index: 9;
+    position: relative;
 
-.secondHeadingWrapper > .secondHeading {
-  min-height: fit-content;
-  max-height: fit-content;
-  min-width: 1300px;
-  max-width: 1300px;
-  font-family: "Trap-Bold";
-  font-size: 6.2rem;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 6.5rem;
-}
-
-.secondHeadingWrapper > h5 {
-  position: absolute;
-  font-size: 0.8rem;
-  min-width: 95px;
-  max-width: 95px;
-  text-align: center;
-  padding: 3px;
-  border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-}
-
-.secondHeadingWrapper > .firstFloat {
-  top: 7%;
-  right: 28.4%;
-  background-color: #ff64be;
-  color: #ddd;
-  font-weight: 500;
-}
-
-.secondHeadingWrapper > .secondFloat {
-  top: 43%;
-  left: 42%;
-  background-color: #05bebf;
-  color: #000;
-  font-weight: 500;
-}
-
-.secondHeadingWrapper > .thirdFloat {
-  bottom: 15%;
-  right: 40.8%;
-  background-color: #fff;
-  color: #000;
-  font-weight: 500;
-}
-
-.secondHeadingWrapper > img {
-  position: absolute;
-  z-index: -1;
-}
-
-.secondHeadingWrapper > .firstFloatImage {
-  top: -9rem;
-  left: 2rem;
-  transform: rotate(-10deg);
-  width: 200px;
-  height: 200px;
-}
-
-.secondHeadingWrapper > .secondFloatImage {
-  bottom: -13rem;
-  right: -6rem;
-  width: 380px;
-  height: 380px;
-  transform: rotate(-4deg);
-}
-
-.hero > .bookTableBtn {
-  background-color: white;
-  min-width: 340px;
-  padding: 0.6rem 0 0.4rem;
-  font-family: "Hello-Graduation-Sans-Serif";
-  font-size: 1.8rem;
-  font-weight: 600;
-  z-index: 9;
-  border: 2px solid #000;
-  box-shadow: 6px 6px 0px #000;
-  transition: all 0.1s ease-in-out;
-
-  &:hover {
-    transform: translate(6px, 6px);
-    box-shadow: 0 0 0 #000;
-  }
-}
-
-.hero > .snapOfFoodWrapper {
-  z-index: 9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 84vw;
-  gap: 1.9rem;
-
-  .snapOfFoodHeader {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0.3rem;
-      min-height: 60px;
-      background-color: white;
-      border: 2px solid #000;
-      border-radius: 100px;
-      box-shadow: 1px 1px 0px #000;
+    .secondHeading {
+      min-height: fit-content;
+      max-height: fit-content;
+      min-width: 1300px;
+      max-width: 1300px;
+      font-family: "Trap-Bold";
+      font-size: 6.2rem;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 6.5rem;
     }
 
-    .snapOfFoodText {
-      font-family: "Hello-Graduation-Sans-Serif";
-      font-size: 4.8rem;
+    h5 {
+      position: absolute;
+      font-size: 0.8rem;
+      min-width: 95px;
+      max-width: 95px;
+      text-align: center;
+      padding: 3px;
+      border-radius: 5px;
+      border: 2px solid rgba(0, 0, 0, 0.5);
+      text-transform: uppercase;
+    }
+
+    .firstFloat {
+      top: 7%;
+      right: 28.4%;
+      background-color: #ff64be;
+      color: #ddd;
+      font-weight: 500;
+    }
+
+    .secondFloat {
+      top: 43%;
+      left: 42%;
+      background-color: #05bebf;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .thirdFloat {
+      bottom: 15%;
+      right: 40.8%;
+      background-color: #fff;
+      color: #000;
+      font-weight: 500;
+    }
+
+    img {
+      position: absolute;
+      z-index: -1;
+    }
+
+    .firstFloatImage {
+      top: -9rem;
+      left: 2rem;
+      transform: rotate(-10deg);
+      width: 200px;
+      height: 200px;
+    }
+
+    .secondFloatImage {
+      bottom: -13rem;
+      right: -6rem;
+      width: 380px;
+      height: 380px;
+      transform: rotate(-4deg);
+    }
+  }
+
+  .bookTableBtn {
+    background-color: white;
+    min-width: 340px;
+    padding: 0.6rem 0 0.4rem;
+    font-family: "Hello-Graduation-Sans-Serif";
+    font-size: 1.8rem;
+    font-weight: 600;
+    z-index: 9;
+    border: 2px solid #000;
+    box-shadow: 6px 6px 0px #000;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      transform: translate(6px, 6px);
+      box-shadow: 0 0 0 #000;
+    }
+  }
+
+  .snapOfFoodWrapper {
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 84vw;
+    gap: 1.9rem;
+
+    .snapOfFoodHeader {
+      width: 100%;
       display: flex;
       flex-direction: row;
-      gap: 1.4rem;
+      justify-content: space-between;
+      align-items: center;
 
-      .word {
-        display: inline-block;
-        letter-spacing: -1px;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.3rem;
+        min-height: 60px;
+        background-color: white;
+        border: 2px solid #000;
+        border-radius: 100px;
+        box-shadow: 1px 1px 0px #000;
+      }
 
-        .bigLetter {
-          font-size: 6rem;
-        }
+      .snapOfFoodText {
+        font-family: "Hello-Graduation-Sans-Serif";
+        font-size: 4.8rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1.4rem;
 
-        &:nth-child(3) .bigLetter,
-        &:nth-child(4) .bigLetter,
-        &:nth-child(6) .bigLetter {
-          margin-right: -1.4rem;
-        }
-        &:nth-child(7) .bigLetter {
-          margin-right: -0.4rem;
+        .word {
+          display: inline-block;
+          letter-spacing: -1px;
+
+          .bigLetter {
+            font-size: 6rem;
+          }
+
+          &:nth-child(3) .bigLetter,
+          &:nth-child(4) .bigLetter,
+          &:nth-child(6) .bigLetter {
+            margin-right: -1.4rem;
+          }
+          &:nth-child(7) .bigLetter {
+            margin-right: -0.4rem;
+          }
         }
       }
     }
-  }
 
-  .snapOfFoodSlideWrapper {
-    .snapOfFoodSlideItemWrapper {
-      display: grid;
-      grid-template-columns: 2fr 1fr; // Kolom besar di kiri dan dua kolom kecil di kanan
-      grid-template-rows: 1fr 1fr; // Dua baris di kanan untuk gambar kecil
-      gap: 1rem; // Jarak antar item dalam grid
-      width: 100%;
-      height: 400px; // Tinggi slide
+    .snapOfFoodSlideWrapper {
+      .snapOfFoodSlideItemWrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr; // Kolom besar di kiri dan dua kolom kecil di kanan
+        grid-template-rows: 1fr 1fr; // Dua baris di kanan untuk gambar kecil
+        gap: 1rem; // Jarak antar item dalam grid
+        width: 100%;
+        height: 400px; // Tinggi slide
 
-      .slideItem {
-        position: relative;
-        background-color: #ccc; // Warna latar (contoh)
+        .slideItem {
+          position: relative;
+          background-color: #ccc; // Warna latar (contoh)
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.5rem; // Contoh teks
+          overflow: hidden;
+          border: 3px solid #000;
+
+          &--big {
+            grid-column: 1 / 2; // Ambil kolom pertama
+            grid-row: 1 / 3; // Ambil dua baris penuh
+
+            .caption {
+              text-align: center;
+
+              .title {
+                font-size: 1rem;
+              }
+
+              .date {
+                font-size: 0.8rem;
+              }
+            }
+          }
+
+          &--small {
+            &:nth-of-type(2) {
+              grid-column: 2 / 3; // Kolom kanan atas
+              grid-row: 1 / 2;
+            }
+
+            &:nth-of-type(3) {
+              grid-column: 2 / 3; // Kolom kanan bawah
+              grid-row: 2 / 3;
+            }
+
+            .caption {
+              .title {
+                font-size: 0.8rem;
+              }
+
+              .date {
+                font-size: 0.6rem;
+              }
+            }
+          }
+
+          .snapOfFoodImage {
+            min-width: 200px;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              transform: scale(1.2);
+              mix-blend-mode: multiply;
+            }
+          }
+
+          .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-family: "Trap-Regular", sans-serif;
+            color: white;
+            padding: 0.5rem;
+            line-height: 1.2rem;
+            text-shadow: 2px 2px 3px #000;
+
+            .title {
+              font-weight: 500;
+              letter-spacing: 0.1rem;
+            }
+          }
+        }
+      }
+
+      .snapOfFoodSlideBtnWrapper {
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        font-size: 1.5rem; // Contoh teks
-        overflow: hidden;
-        border: 3px solid #000;
+        align-items: center;
+        gap: 0.7rem;
+        margin-top: 2rem;
 
-        &--big {
-          grid-column: 1 / 2; // Ambil kolom pertama
-          grid-row: 1 / 3; // Ambil dua baris penuh
-
-          .caption {
-            text-align: center;
-
-            .title {
-              font-size: 1rem;
-            }
-
-            .date {
-              font-size: 0.8rem;
-            }
-          }
-        }
-
-        &--small {
-          &:nth-of-type(2) {
-            grid-column: 2 / 3; // Kolom kanan atas
-            grid-row: 1 / 2;
-          }
-
-          &:nth-of-type(3) {
-            grid-column: 2 / 3; // Kolom kanan bawah
-            grid-row: 2 / 3;
-          }
-
-          .caption {
-            .title {
-              font-size: 0.8rem;
-            }
-
-            .date {
-              font-size: 0.6rem;
-            }
-          }
-        }
-
-        .snapOfFoodImage {
-          min-width: 200px;
-          transition: all 0.2s ease-in-out;
+        button {
+          background-color: white;
+          color: rgba(0, 0, 0, 0.9);
+          border-radius: 100%;
+          padding: 0.3rem;
 
           &:hover {
-            transform: scale(1.2);
-            mix-blend-mode: multiply;
+            background-color: #000;
+            color: white;
           }
         }
 
-        .caption {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          font-family: "Trap-Regular", sans-serif;
-          color: white;
-          padding: 0.5rem;
-          line-height: 1.2rem;
-          text-shadow: 2px 2px 3px #000;
+        button:nth-child(1) {
+          background-color: transparent;
+          color: rgba(0, 0, 0, 0.5);
 
-          .title {
-            font-weight: 500;
-            letter-spacing: 0.1rem;
+          &:hover {
+            color: rgba(0, 0, 0, 0.9);
           }
-        }
-      }
-    }
-
-    .snapOfFoodSlideBtnWrapper {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      gap: 0.7rem;
-      margin-top: 2rem;
-
-      button {
-        background-color: white;
-        color: rgba(0, 0, 0, 0.9);
-        border-radius: 100%;
-        padding: 0.3rem;
-
-        &:hover {
-          background-color: #000;
-          color: white;
-        }
-      }
-
-      button:nth-child(1) {
-        background-color: transparent;
-        color: rgba(0, 0, 0, 0.5);
-
-        &:hover {
-          color: rgba(0, 0, 0, 0.9);
         }
       }
     }
