@@ -1,0 +1,43 @@
+.openTime {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #fc65be;
+  padding: 3.5rem;
+  margin-top: 2.6rem;
+
+  @media (min-width: 768px) {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .openTimeText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+    gap: 0.5rem;
+    z-index: 9;
+    border: 1px solid #282828;
+
+    h1 {
+      font-family: "Hello-Graduation-Sans-Serif";
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+    }
+
+    h3 {
+      font-family: "Trap-Regular";
+      font-weight: bold;
+      background-color: #ff61be;
+      padding: 0.4rem 0.4rem 0.3rem;
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import styles from "./Hero.module.scss";
-import { cn } from "@/lib/utils";
 import GridPattern from "@/components/ui/grid-pattern";
 import { ArrowDown, ArrowLeft, ArrowRight } from "lucide-react";
 

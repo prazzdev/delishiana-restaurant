@@ -1,0 +1,83 @@
+.aboutUs {
+  min-width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  margin: 3.5rem 0;
+  overflow-x: hidden;
+
+  .aboutUsTitle {
+    font-family: "Trap-Bold";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7rem;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.8rem;
+
+      span {
+        margin-top: -0.4rem;
+        transform: rotate(-45deg);
+        font-size: 1.3rem;
+        color: #fb64c2;
+      }
+
+      h1 {
+        font-size: 4.5rem;
+        color: #929292;
+      }
+    }
+  }
+
+  .aboutUsDescription {
+    position: relative;
+    font-family: "Hello-Graduation-Sans-Serif", sans-serif;
+    color: #d7d7d7;
+    font-size: 2.5rem;
+    max-width: 70%;
+    line-height: 1.5;
+    text-align: center;
+    word-spacing: 0rem;
+    margin-bottom: 2rem;
+
+    img {
+      min-width: 90px;
+      max-width: 90px;
+      position: absolute;
+    }
+    img:nth-child(2) {
+      top: -5rem;
+      left: -5rem;
+    }
+    img:nth-child(3) {
+      top: -6rem;
+      right: -1rem;
+      transform: rotate(-30deg);
+    }
+    img:nth-child(4) {
+      bottom: 1.9rem;
+      left: -4.3rem;
+      transform: rotate(-8deg);
+    }
+    img:nth-child(5) {
+      bottom: 0;
+      right: -3rem;
+    }
+  }
+
+  .waveLine {
+    width: 10%;
+    margin-bottom: 0.5rem;
+  }
+
+  .brandLogo {
+    min-width: 170px;
+    max-width: 170px;
+  }
+}

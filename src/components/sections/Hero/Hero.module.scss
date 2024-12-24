@@ -1,16 +1,13 @@
 .hero {
   background-color: #fce501;
   min-width: 100%;
-  min-height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
   overflow: hidden;
-  border-radius: 0.5rem;
-  padding: 5rem;
-  padding-top: 10rem;
+  padding: 10rem 5rem 1rem 5rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
   @media (min-width: 768px) {
@@ -145,7 +142,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 84vw;
+    min-width: 82vw;
+    max-width: 82vw;
     gap: 1.9rem;
 
     .snapOfFoodHeader {
@@ -159,7 +157,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0.3rem;
+        padding: 0.9rem 0.3rem;
         min-height: 60px;
         background-color: white;
         border: 2px solid #000;
@@ -169,7 +167,7 @@
 
       .snapOfFoodText {
         font-family: "Hello-Graduation-Sans-Serif";
-        font-size: 4.8rem;
+        font-size: 5rem;
         display: flex;
         flex-direction: row;
         gap: 1.4rem;
@@ -179,7 +177,7 @@
           letter-spacing: -1px;
 
           .bigLetter {
-            font-size: 6rem;
+            font-size: 5.5rem;
           }
 
           &:nth-child(3) .bigLetter,
@@ -187,6 +185,7 @@
           &:nth-child(6) .bigLetter {
             margin-right: -1.4rem;
           }
+
           &:nth-child(7) .bigLetter {
             margin-right: -0.4rem;
           }
@@ -197,25 +196,25 @@
     .snapOfFoodSlideWrapper {
       .snapOfFoodSlideItemWrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr; // Kolom besar di kiri dan dua kolom kecil di kanan
-        grid-template-rows: 1fr 1fr; // Dua baris di kanan untuk gambar kecil
-        gap: 1rem; // Jarak antar item dalam grid
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
         width: 100%;
-        height: 400px; // Tinggi slide
+        height: 450px;
 
         .slideItem {
           position: relative;
-          background-color: #ccc; // Warna latar (contoh)
+          background-color: #ccc;
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 1.5rem; // Contoh teks
+          font-size: 1.5rem;
           overflow: hidden;
           border: 3px solid #000;
 
           &--big {
-            grid-column: 1 / 2; // Ambil kolom pertama
-            grid-row: 1 / 3; // Ambil dua baris penuh
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
 
             .caption {
               text-align: center;
@@ -232,12 +231,12 @@
 
           &--small {
             &:nth-of-type(2) {
-              grid-column: 2 / 3; // Kolom kanan atas
+              grid-column: 2 / 3;
               grid-row: 1 / 2;
             }
 
             &:nth-of-type(3) {
-              grid-column: 2 / 3; // Kolom kanan bawah
+              grid-column: 2 / 3;
               grid-row: 2 / 3;
             }
 
@@ -287,7 +286,7 @@
         justify-content: center;
         align-items: center;
         gap: 0.7rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
 
         button {
           background-color: white;

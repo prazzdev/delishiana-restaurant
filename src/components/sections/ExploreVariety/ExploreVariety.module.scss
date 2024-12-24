@@ -1,0 +1,266 @@
+.exploreVariety {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+
+  .exploreVarietyText {
+    font-family: "Trap-Bold", sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: white;
+    margin-bottom: 1.4rem;
+  }
+
+  .varietyOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+
+    .optionWrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+
+      div {
+        background-color: #05bebf;
+        padding: 0.5rem;
+        border-radius: 100px;
+      }
+
+      h3 {
+        font-family: "Hello-Graduation-Sans-Serif";
+        font-size: 2.3rem;
+        color: white;
+        margin-bottom: -0.6rem;
+      }
+    }
+  }
+
+  .placesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 82vw;
+    max-width: 82vw;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+
+    .placeWrapper {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 100%;
+      min-height: 670px;
+      max-height: 670px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      overflow: hidden;
+      margin-top: -5rem;
+      z-index: 9;
+
+      .placeDescription {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 4rem;
+        min-width: 50%;
+        min-height: 700px;
+        background-color: white;
+        padding: 6rem 4rem;
+
+        div {
+          max-width: fit-content;
+        }
+
+        div:nth-child(1) {
+          display: flex;
+          flex-direction: column;
+          gap: 0.1rem;
+        }
+
+        div:nth-child(2) {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          margin-left: 0.4rem;
+        }
+
+        div:nth-child(3) {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 1.5rem;
+          margin-left: 0.4rem;
+          margin-top: -1rem;
+        }
+
+        .placeName {
+          font-family: "Trap-Bold";
+          line-height: 1;
+          font-size: 3.9rem;
+          font-weight: bold;
+          letter-spacing: -1px;
+          text-transform: uppercase;
+        }
+
+        .placeCity {
+          font-family: "Trap-Bold", sans-serif;
+          line-height: 1;
+          max-width: fit-content;
+          text-transform: uppercase;
+          font-size: 2.6rem;
+          padding: 0.6rem 1rem 0;
+          background: repeating-linear-gradient(
+              45deg,
+              transparent,
+              transparent 5px,
+              black 5px,
+              black 6px
+            ),
+            #fc6cbd;
+          margin-left: 0.6rem;
+        }
+
+        .placeLocation,
+        .pinNumber,
+        .phoneNumber {
+          font-family: "Hello-Graduation-Sans-Serif";
+          font-size: 1.7rem;
+          line-height: 1;
+        }
+
+        .button {
+          font-family: "Hello-Graduation-Sans-Serif";
+          font-size: 1.9rem;
+          background-color: #ffeb11;
+          color: black;
+          border: 2px solid #000;
+          min-width: 230px;
+          box-shadow: 4px 6px 0 #000;
+          padding: 0.4rem 0 0 0;
+          transition: all 0.1s ease-in-out;
+
+          &:hover {
+            transform: translate(4px, 6px);
+            box-shadow: 0 0 0 #000;
+          }
+        }
+      }
+
+      .placeImage {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        min-width: 50%;
+        min-height: 700px;
+        background-color: #05bebf;
+
+        .backgroundImage {
+          position: absolute;
+          top: 0;
+          left: 0;
+          min-width: 100%;
+          max-width: 100%;
+          z-index: 1;
+        }
+
+        figure {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 550px;
+          max-width: 550px;
+          min-height: 300px;
+          max-height: 300px;
+          overflow: hidden;
+          z-index: 3;
+          border: 2px solid rgba(0, 0, 0, 0.8);
+          box-shadow: 8px 8px 0 #fff, 8px 8px 0 2px #000;
+          transition: all 0.1s ease-in-out;
+
+          &:hover {
+            transform: translate(10px, 10px);
+            box-shadow: 0 0 #000;
+          }
+
+          img {
+            min-width: 550px;
+            max-width: 550px;
+            transition: all 0.1s ease-in-out;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+
+      .verticalLine {
+        position: absolute;
+        // top: 40%;
+        left: 10vw;
+        // right: 0;
+        min-width: 50%;
+        min-height: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fe64c2;
+        transform: rotate(-90deg);
+        z-index: 10;
+        border: 1px solid #000;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8rem;
+        overflow: hidden;
+        gap: 0.3rem;
+      }
+    }
+
+    .placeWrapper:first-child {
+      margin-top: 0;
+    }
+    .placeWrapper:nth-child(even) {
+      flex-direction: row-reverse;
+
+      figure {
+        box-shadow: -8px 8px 0 #fff, -8px 8px 0 2px #000;
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+          transform: translate(-10px, 10px);
+          box-shadow: 0 0 #000;
+        }
+      }
+
+      .verticalLine {
+        position: absolute;
+        // top: 40%;
+        right: 10vw;
+      }
+    }
+    .placeWrapper:last-child {
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      min-height: 580px;
+      max-height: 580px;
+    }
+  }
+}
