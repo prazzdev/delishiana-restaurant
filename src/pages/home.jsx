@@ -1,9 +1,10 @@
-import styles from "@/styles/Home.module.scss";
+import styles from "../styles/Home.module.scss";
 import Navbar from "../components/compounds/Navbar";
-import HeroSection from "@/components/sections/Hero";
-import OpenTimeSection from "@/components/sections/OpenTime";
+import HeroSection from "../components/sections/Hero";
+import OpenTimeSection from "../components/sections/OpenTime";
 import ExploreVarietySection from "../components/sections/ExploreVariety";
 import AboutUsSection from "../components/sections/AboutUs";
+import MediaVaultsSection from "../components/sections/MediaVaults";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
         <OpenTimeSection />
         <ExploreVarietySection />
         <AboutUsSection />
+        <MediaVaultsSection />
       </div>
     </>
   );

@@ -1,5 +1,4 @@
 import styles from "./AboutUs.module.scss";
-import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 const AboutUsSection = () => {
   return (
@@ -39,6 +38,11 @@ const AboutUsSection = () => {
         alt="Delishiana logo"
         className={styles.brandLogo}
       />
+      {/* <img
+        src="/assets/images/emphasis-line.webp"
+        alt="Emphasis Line"
+        className={styles.emphasisLine}
+      /> */}
     </section>
   );
 };

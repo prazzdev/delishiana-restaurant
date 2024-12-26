@@ -14,6 +14,10 @@
   font-family: "Trap-Bold";
   src: url("/assets/fonts/Trap-Bold.otf");
 }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("/assets/fonts/Montserrat-Regular.ttf");
+}
 
 :root {
   --main: #88aaee;
@@ -61,6 +65,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 body {
