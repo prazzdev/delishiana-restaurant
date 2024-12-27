@@ -1,0 +1,54 @@
+.footer {
+  background-color: #fce501;
+
+  .menuWrapper {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    .menu {
+      font-family: "Hello-Graduation-Sans-Serif";
+      font-size: 1.6rem;
+    }
+    .separator {
+      font-size: 1.3rem;
+      color: #fb65c6;
+    }
+  }
+
+  .copyright {
+    background-color: #f75eb8;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hello-Graduation-Sans-Serif";
+    font-size: 1rem;
+    gap: 1rem;
+    // overflow: hidden;
+  }
+
+  .trademark {
+    position: relative;
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 5px,
+        #232323 5px,
+        #232323 6px
+      ),
+      #fce501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    .logo {
+      max-width: 300px;
+    }
+  }
+}

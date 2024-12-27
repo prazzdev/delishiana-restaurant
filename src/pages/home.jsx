@@ -5,6 +5,7 @@ import OpenTimeSection from "../components/sections/OpenTime";
 import ExploreVarietySection from "../components/sections/ExploreVariety";
 import AboutUsSection from "../components/sections/AboutUs";
 import MediaVaultsSection from "../components/sections/MediaVaults";
+import Footer from "../components/sections/Footer";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <ExploreVarietySection />
         <AboutUsSection />
         <MediaVaultsSection />
+        <Footer />
       </div>
     </>
   );
