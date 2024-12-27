@@ -10,8 +10,10 @@
   padding: 10rem 5rem 1rem 5rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
+    padding: 8rem 5rem 1rem 5rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    gap: 2rem;
   }
 
   .maskGradient {
@@ -40,7 +42,9 @@
     border-radius: 0.5rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
+      min-width: 300px;
+      font-size: 1.5rem;
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
     }
   }
@@ -59,6 +63,13 @@
       text-transform: uppercase;
       text-align: center;
       line-height: 6.5rem;
+
+      @media (max-width: 768px) {
+        min-width: 300px;
+        max-width: 300px;
+        font-size: 2.3rem;
+        line-height: 3rem;
+      }
     }
 
     h5 {
@@ -71,6 +82,14 @@
       border-radius: 5px;
       border: 2px solid rgba(0, 0, 0, 0.5);
       text-transform: uppercase;
+
+      @media (max-width: 768px) {
+        min-width: 50px;
+        max-width: fit-content;
+        font-size: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 2px;
+      }
     }
 
     .firstFloat {
@@ -79,19 +98,24 @@
       background-color: #ff64be;
       color: #ddd;
       font-weight: 500;
+
+      @media (max-width: 768px) {
+        top: 1%;
+        right: -9%;
+      }
     }
 
     .secondFloat {
-      top: 43%;
-      left: 42%;
+      top: 50%;
+      left: -8%;
       background-color: #05bebf;
       color: #000;
       font-weight: 500;
     }
 
     .thirdFloat {
-      bottom: 15%;
-      right: 40.8%;
+      bottom: 10%;
+      right: -6%;
       background-color: #fff;
       color: #000;
       font-weight: 500;
@@ -108,6 +132,13 @@
       transform: rotate(-10deg);
       width: 200px;
       height: 200px;
+
+      @media (max-width: 768px) {
+        width: 100px;
+        height: 100px;
+        top: -3rem;
+        left: -3rem;
+      }
     }
 
     .secondFloatImage {
@@ -116,6 +147,13 @@
       width: 380px;
       height: 380px;
       transform: rotate(-4deg);
+
+      @media (max-width: 768px) {
+        width: 150px;
+        height: 150px;
+        bottom: -4rem;
+        right: -3rem;
+      }
     }
   }
 
