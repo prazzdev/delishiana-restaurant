@@ -1,13 +1,6 @@
 # delishiana-restaurant
 
-## Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
-
-## About <a name = "about"></a>
+## About <a name = "about">Delishiana Restaurant</a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
 
