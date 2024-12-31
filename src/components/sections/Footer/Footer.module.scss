@@ -15,6 +15,11 @@
       padding: 1rem 0;
     }
 
+    @media (min-width: 1280px) {
+      gap: 4rem;
+      padding: 1rem 0;
+    }
+
     .menu {
       font-family: "Hello-Graduation-Sans-Serif";
       font-size: 1.6rem;
@@ -51,6 +56,17 @@
       max-height: 25px;
       overflow-y: hidden;
     }
+
+    @media (min-width: 1280px) {
+      min-width: 150vw;
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: -25vw;
+    }
   }
 
   .trademark {
@@ -72,11 +88,19 @@
       padding: 1rem 0;
     }
 
+    @media (min-width: 1280px) {
+      padding: 1.5rem 0;
+    }
+
     .logo {
       max-width: 300px;
 
       @media (max-width: 768px) {
         max-width: 200px;
+      }
+
+      @media (min-width: 1280px) {
+        max-width: 250px;
       }
     }
   }

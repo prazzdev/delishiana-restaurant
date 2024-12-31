@@ -16,6 +16,10 @@
     gap: 2rem;
   }
 
+  @media (min-width: 1280px) {
+    gap: 3.5rem;
+  }
+
   .maskGradient {
     mask-image: radial-gradient(1200px circle at top, white, transparent);
 
@@ -47,6 +51,11 @@
       font-size: 1.5rem;
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
     }
+
+    @media (min-width: 1280px) {
+      min-width: 450px;
+      font-size: 1.8rem;
+    }
   }
 
   .secondHeadingWrapper {
@@ -70,6 +79,13 @@
         font-size: 2.3rem;
         line-height: 3rem;
       }
+
+      @media (min-width: 1280px) {
+        min-width: 900px;
+        max-width: 900px;
+        font-size: 5rem;
+        letter-spacing: -0.1rem;
+      }
     }
 
     h5 {
@@ -90,6 +106,13 @@
         border: 1px solid rgba(0, 0, 0, 0.5);
         padding: 2px;
       }
+
+      @media (min-width: 1280px) {
+        min-width: 75px;
+        max-width: 75px;
+        font-size: 0.6rem;
+        padding: 2px;
+      }
     }
 
     .firstFloat {
@@ -102,6 +125,11 @@
       @media (max-width: 768px) {
         top: 1%;
         right: -9%;
+      }
+
+      @media (min-width: 1280px) {
+        top: 9%;
+        right: 25.5%;
       }
     }
 
@@ -116,6 +144,11 @@
         top: 50%;
         left: -8%;
       }
+
+      @media (min-width: 1280px) {
+        top: 44%;
+        left: 41%;
+      }
     }
 
     .thirdFloat {
@@ -128,6 +161,11 @@
       @media (max-width: 768px) {
         bottom: 10%;
         right: -6%;
+      }
+
+      @media (min-width: 1280px) {
+        bottom: 16%;
+        right: 39.5%;
       }
     }
 
@@ -149,6 +187,13 @@
         top: -3rem;
         left: -3rem;
       }
+
+      @media (min-width: 1280px) {
+        width: 170px;
+        height: 170px;
+        top: -7rem;
+        left: -3rem;
+      }
     }
 
     .secondFloatImage {
@@ -163,6 +208,13 @@
         height: 150px;
         bottom: -4rem;
         right: -3rem;
+      }
+
+      @media (min-width: 1280px) {
+        width: 250px;
+        height: 250px;
+        bottom: -6rem;
+        right: -6rem;
       }
     }
   }
@@ -184,6 +236,11 @@
       min-width: 220px;
     }
 
+    @media (min-width: 1280px) {
+      min-width: 340px;
+      font-size: 1.8rem;
+    }
+
     &:hover {
       transform: translate(6px, 6px);
       box-shadow: 0 0 0 #000;
@@ -199,12 +256,20 @@
     max-width: 82vw;
     gap: 1.9rem;
 
+    @media (min-width: 1280px) {
+      gap: 1rem;
+    }
+
     .snapOfFoodHeader {
       width: 96%;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+
+      @media (min-width: 1280px) {
+        width: 94%;
+      }
 
       div {
         display: flex;
@@ -238,6 +303,11 @@
           justify-content: center;
         }
 
+        @media (min-width: 1280px) {
+          font-size: 4.3rem;
+          gap: 1rem;
+        }
+
         .word {
           display: inline-block;
           letter-spacing: -1px;
@@ -247,6 +317,10 @@
 
             @media (max-width: 768px) {
               font-size: 2.6rem;
+            }
+
+            @media (min-width: 1280px) {
+              font-size: 5rem;
             }
           }
 
@@ -393,7 +467,7 @@
             }
 
             .caption {
-              @media (max-width: 768px) {
+              @media (max-width: 768px), (min-width: 1280px) {
                 text-align: center;
               }
             }
