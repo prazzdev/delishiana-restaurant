@@ -11,7 +11,8 @@
   padding: 3.5rem;
   margin-top: 2.6rem;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
+    padding: 2.5rem 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   }
 
@@ -31,6 +32,10 @@
       color: white;
       text-transform: uppercase;
       font-size: 1.1rem;
+
+      @media (max-width: 768px) {
+        font-size: 0.8rem;
+      }
     }
 
     h3 {
@@ -38,6 +43,10 @@
       font-weight: bold;
       background-color: #ff61be;
       padding: 0.4rem 0.4rem 0.3rem;
+
+      @media (max-width: 768px) {
+        font-size: 0.8rem;
+      }
     }
   }
 }

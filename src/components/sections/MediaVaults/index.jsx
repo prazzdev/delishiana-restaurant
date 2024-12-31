@@ -91,7 +91,7 @@ const MediaVaultsSection = () => {
                 </div>
               </div>
               <div className={styles.closeDay}>
-                <span>urday & Sunday Closed ● Saturday</span>
+                <span>● Saturday & Sunday Closed ●</span>
               </div>
             </div>
           </div>
