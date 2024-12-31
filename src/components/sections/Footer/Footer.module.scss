@@ -1,5 +1,6 @@
 .footer {
   background-color: #fce501;
+  overflow-x: hidden;
 
   .menuWrapper {
     padding: 2rem 0;
@@ -59,7 +60,6 @@
 
     @media (min-width: 1280px) {
       min-width: 150vw;
-      overflow: hidden;
       text-align: center;
       display: flex;
       flex-direction: row;
