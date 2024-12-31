@@ -16,6 +16,10 @@
     @media (max-width: 768px) {
       font-size: 2.4rem;
     }
+
+    @media (max-width: 1280px) {
+      font-size: 3rem;
+    }
   }
 
   .articleWrapper {
@@ -33,6 +37,12 @@
       min-width: 80vw;
       max-width: 80vw;
       margin-bottom: 3rem;
+    }
+
+    @media (max-width: 1280px) {
+      min-width: 80vw;
+      max-width: 80vw;
+      margin-bottom: 5rem;
     }
 
     .articleCard {
@@ -104,6 +114,13 @@
           box-shadow: 5px 5px 0 #000;
           transition: all 0.1s ease-in-out;
 
+          @media (max-width: 1280px) {
+            min-width: 85%;
+            max-width: 85%;
+            font-size: 1.5rem;
+            padding: 0.3rem 0 0.1rem;
+          }
+
           &:hover {
             transform: translate(5px, 5px);
             box-shadow: 0 0 0 #000;
@@ -140,6 +157,13 @@
       min-width: 80vw;
       max-width: 80vw;
       gap: 2rem;
+    }
+
+    @media (max-width: 1280px) {
+      min-width: 70vw;
+      max-width: 70vw;
+      max-height: 80vh;
+      gap: 3rem;
     }
 
     .infoCard {
@@ -187,6 +211,10 @@
           padding: 0 1rem;
         }
 
+        @media (max-width: 1280px) {
+          min-height: 220px;
+        }
+
         div {
           display: flex;
           justify-content: center;
@@ -211,6 +239,11 @@
               font-size: 1.8rem;
               line-height: 2.3rem;
             }
+
+            @media (max-width: 1280px) {
+              font-size: 2.2rem;
+              line-height: 2.5rem;
+            }
           }
         }
       }
@@ -228,6 +261,10 @@
         @media (max-width: 768px) {
           min-height: 300px;
           padding: 1rem;
+        }
+
+        @media (max-width: 1280px) {
+          min-height: 350px;
         }
 
         .day {
@@ -369,6 +406,11 @@
           gap: 2rem;
         }
 
+        @media (max-width: 1280px) {
+          justify-content: space-around;
+          align-items: center;
+        }
+
         .myLink {
           display: flex;
           flex-direction: column;
@@ -381,6 +423,11 @@
           @media (max-width: 768px) {
             min-width: 100%;
             max-width: 100%;
+          }
+
+          @media (max-width: 1280px) {
+            min-width: 25%;
+            max-width: 25%;
           }
 
           .icon {
@@ -397,6 +444,10 @@
 
             @media (max-width: 768px) {
               font-size: 0.9rem;
+            }
+
+            @media (max-width: 1280px) {
+              font-size: 0.8rem;
             }
           }
         }

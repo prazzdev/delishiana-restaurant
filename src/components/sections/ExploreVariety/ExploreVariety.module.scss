@@ -26,6 +26,10 @@
       line-height: 3rem;
       padding-left: 1.7rem;
     }
+
+    @media (max-width: 1280px) {
+      font-size: 3rem;
+    }
   }
 
   .varietyOptions {
@@ -37,6 +41,10 @@
     margin-bottom: 6rem;
 
     @media (max-width: 768px) {
+      margin-bottom: 4rem;
+    }
+
+    @media (max-width: 1280px) {
       margin-bottom: 4rem;
     }
 
@@ -84,6 +92,11 @@
     border-radius: 50px;
     overflow: hidden;
 
+    @media (max-width: 1280px) {
+      min-height: fit-content;
+      max-height: fit-content;
+    }
+
     .placeWrapper {
       position: relative;
       display: flex;
@@ -104,6 +117,13 @@
         margin-top: 0;
       }
 
+      @media (max-width: 1280px) {
+        min-height: fit-content;
+        max-height: fit-content;
+        margin-top: 0;
+        border-radius: 0;
+      }
+
       .placeDescription {
         display: flex;
         flex: 1;
@@ -121,6 +141,12 @@
           max-height: 380px;
           min-width: 250px;
           max-width: 250px;
+        }
+
+        @media (max-width: 1280px) {
+          min-height: 500px;
+          max-height: 500px;
+          padding: 4rem 2rem;
         }
 
         div {
@@ -171,6 +197,10 @@
           @media (max-width: 768px) {
             font-size: 2.4rem;
           }
+
+          @media (max-width: 1280px) {
+            font-size: 3rem;
+          }
         }
 
         .placeCity {
@@ -192,6 +222,10 @@
 
           @media (max-width: 768px) {
             font-size: 1.8rem;
+          }
+
+          @media (max-width: 1280px) {
+            font-size: 2rem;
           }
         }
 
@@ -231,6 +265,11 @@
             min-width: 110px;
           }
 
+          @media (max-width: 1280px) {
+            font-size: 1.6rem;
+            min-width: 180px;
+          }
+
           &:hover {
             transform: translate(4px, 6px);
             box-shadow: 0 0 0 #000;
@@ -258,6 +297,13 @@
           &:hover {
             transform: none;
           }
+        }
+
+        @media (max-width: 1280px) {
+          min-height: 500px;
+          max-height: 500px;
+          padding: 0;
+          margin: 0;
         }
 
         .backgroundImage {
@@ -311,6 +357,13 @@
               transform: none;
             }
           }
+
+          @media (max-width: 1280px) {
+            min-width: 400px;
+            max-width: 400px;
+            min-height: 200px;
+            max-height: 200px;
+          }
         }
       }
 
@@ -347,6 +400,10 @@
         flex-direction: column-reverse;
       }
 
+      @media (max-width: 1280px) {
+        flex-direction: row-reverse;
+      }
+
       figure {
         box-shadow: -8px 8px 0 #fff, -8px 8px 0 2px #000;
         transition: all 0.1s ease-in-out;
@@ -381,6 +438,12 @@
       @media (max-width: 768px) {
         min-height: 670px;
         max-height: 670px;
+      }
+
+      @media (max-width: 1280px) {
+        border-radius: 0;
+        min-height: 0;
+        max-height: fit-content;
       }
     }
   }
