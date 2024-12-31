@@ -6,6 +6,10 @@
   padding: 4rem 0;
   background-color: #232323;
 
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
+
   .exploreVarietyText {
     font-family: "Trap-Bold", sans-serif;
     font-size: 4rem;
@@ -15,6 +19,13 @@
     letter-spacing: 0.1rem;
     color: white;
     margin-bottom: 1.4rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.4rem;
+      text-align: left;
+      line-height: 3rem;
+      padding-left: 1.7rem;
+    }
   }
 
   .varietyOptions {
@@ -24,6 +35,10 @@
     justify-content: center;
     gap: 2rem;
     margin-bottom: 6rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 4rem;
+    }
 
     .optionWrapper {
       display: flex;
@@ -36,6 +51,13 @@
         background-color: #05bebf;
         padding: 0.5rem;
         border-radius: 100px;
+
+        .check {
+          @media (max-width: 768px) {
+            max-width: 1rem;
+            max-height: 1rem;
+          }
+        }
       }
 
       h3 {
@@ -43,6 +65,11 @@
         font-size: 2.3rem;
         color: white;
         margin-bottom: -0.6rem;
+
+        @media (max-width: 768px) {
+          font-size: 1.8rem;
+          margin-bottom: -0.3rem;
+        }
       }
     }
   }
@@ -72,6 +99,10 @@
       margin-top: -5rem;
       z-index: 9;
 
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
       .placeDescription {
         display: flex;
         flex: 1;
@@ -81,6 +112,15 @@
         min-height: 700px;
         background-color: white;
         padding: 6rem 4rem;
+
+        @media (max-width: 768px) {
+          padding: 2rem 0;
+          gap: 2rem;
+          min-height: 350px;
+          max-height: 350px;
+          min-width: 250px;
+          max-width: 250px;
+        }
 
         div {
           max-width: fit-content;
@@ -97,6 +137,11 @@
           flex-direction: column;
           gap: 1.5rem;
           margin-left: 0.4rem;
+
+          @media (max-width: 768px) {
+            gap: 1.2rem;
+            margin-bottom: 0.7rem;
+          }
         }
 
         div:nth-child(3) {
@@ -106,6 +151,12 @@
           gap: 1.5rem;
           margin-left: 0.4rem;
           margin-top: -1rem;
+
+          @media (max-width: 768px) {
+            gap: 1rem;
+            max-width: 100%;
+            margin-left: 0;
+          }
         }
 
         .placeName {
@@ -115,6 +166,10 @@
           font-weight: bold;
           letter-spacing: -1px;
           text-transform: uppercase;
+
+          @media (max-width: 768px) {
+            font-size: 2.4rem;
+          }
         }
 
         .placeCity {
@@ -133,6 +188,10 @@
             ),
             #fc6cbd;
           margin-left: 0.6rem;
+
+          @media (max-width: 768px) {
+            font-size: 1.8rem;
+          }
         }
 
         .placeLocation,
@@ -141,6 +200,18 @@
           font-family: "Hello-Graduation-Sans-Serif";
           font-size: 1.7rem;
           line-height: 1;
+
+          @media (max-width: 768px) {
+            font-size: 1.3rem;
+            line-height: 1.7rem;
+          }
+        }
+        .pinNumber,
+        .phoneNumber {
+          @media (max-width: 768px) {
+            font-size: 1rem;
+            line-height: 1rem;
+          }
         }
 
         .button {
@@ -153,6 +224,11 @@
           box-shadow: 4px 6px 0 #000;
           padding: 0.4rem 0 0 0;
           transition: all 0.1s ease-in-out;
+
+          @media (max-width: 768px) {
+            font-size: 1.3rem;
+            min-width: 110px;
+          }
 
           &:hover {
             transform: translate(4px, 6px);
@@ -170,6 +246,11 @@
         min-width: 50%;
         min-height: 700px;
         background-color: #05bebf;
+
+        @media (max-width: 768px) {
+          min-height: 300px;
+          max-height: 300px;
+        }
 
         .backgroundImage {
           position: absolute;
@@ -240,6 +321,10 @@
     }
     .placeWrapper:nth-child(even) {
       flex-direction: row-reverse;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
 
       figure {
         box-shadow: -8px 8px 0 #fff, -8px 8px 0 2px #000;

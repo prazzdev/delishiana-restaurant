@@ -78,43 +78,41 @@ const HeroSection = () => {
           </div>
           <div className={styles.snapOfFoodSlideWrapper}>
             <div className={styles.snapOfFoodSlideItemWrapper}>
-              <div
-                className={`${styles.slideItem} ${styles["slideItem--big"]}`}
-              >
-                <img
-                  src="/assets/images/food-slide-1.webp"
-                  alt="Food in Slide image"
-                  className={styles.snapOfFoodImage}
-                />
-                <div className={styles.caption}>
-                  <h1 className={styles.title}>From FOXILYZE</h1>
-                  <h5 className={styles.date}>On 22/12</h5>
+              <div className={`${styles.partOfSlide} ${styles.left}`}>
+                <div className={styles.slideItem}>
+                  <img
+                    src="/assets/images/food-slide-1.webp"
+                    alt="Food in Slide image"
+                    className={styles.snapOfFoodImage}
+                  />
+                  <div className={styles.caption}>
+                    <h1 className={styles.title}>From FOXILYZE</h1>
+                    <h5 className={styles.date}>On 22/12</h5>
+                  </div>
                 </div>
               </div>
-              <div
-                className={`${styles.slideItem} ${styles["slideItem--small"]}`}
-              >
-                <img
-                  src="/assets/images/food-slide-1.webp"
-                  alt="Food in Slide image"
-                  className={styles.snapOfFoodImage}
-                />
-                <div className={styles.caption}>
-                  <h1 className={styles.title}>From FOXILYZE</h1>
-                  <h5 className={styles.date}>On 22/12</h5>
+              <div className={`${styles.partOfSlide} ${styles.right}`}>
+                <div className={styles.slideItem}>
+                  <img
+                    src="/assets/images/food-slide-1.webp"
+                    alt="Food in Slide image"
+                    className={styles.snapOfFoodImage}
+                  />
+                  <div className={styles.caption}>
+                    <h1 className={styles.title}>From FOXILYZE</h1>
+                    <h5 className={styles.date}>On 22/12</h5>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={`${styles.slideItem} ${styles["slideItem--small"]}`}
-              >
-                <img
-                  src="/assets/images/food-slide-1.webp"
-                  alt="Food in Slide image"
-                  className={styles.snapOfFoodImage}
-                />
-                <div className={styles.caption}>
-                  <h1 className={styles.title}>From FOXILYZE</h1>
-                  <h5 className={styles.date}>On 22/12</h5>
+                <div className={styles.slideItem}>
+                  <img
+                    src="/assets/images/food-slide-1.webp"
+                    alt="Food in Slide image"
+                    className={styles.snapOfFoodImage}
+                  />
+                  <div className={styles.caption}>
+                    <h1 className={styles.title}>From FOXILYZE</h1>
+                    <h5 className={styles.date}>On 22/12</h5>
+                  </div>
                 </div>
               </div>
             </div>
